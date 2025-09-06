@@ -40,7 +40,7 @@ body{
     align-items: center;
     overflow: hidden;
 
-    background-image: url('/img/backgroundUcab.jpg');
+    background-image: url('./img/backgroundUcab.jpg');
     background-size: cover;
     background-position: center;
     background-repeat:no-repeat;
