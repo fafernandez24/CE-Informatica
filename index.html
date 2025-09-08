@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>CE Informatica</title>
-    <link rel="stylesheet" href="./styles/indexStyles.css">
+    <link rel="stylesheet" href="./styles/desktop/indexStyles.css">
     <link rel="icon" href="./img/programmer.png">
 </head>
 <body>
 
   <header class="header">
-    <img class="iconCE" src="./img/iconCE.png" alt="">
+    <img class="iconCE" src="./img/iconCE.png" alt=""> 
   </header>
 
   <section id="titleSection">
@@ -20,7 +20,7 @@
 
   <section class="section" id="sectionDates">
     <h2 id="importantsDates">📅 FECHAS IMPORTANTES</h2>
-    <ul class="datesList">
+    <ul class="list">
       <li>
         <article class="artImpDate">
           <p class="date">SEP<br>05</p>
@@ -55,40 +55,113 @@
   </section>
 
   <section id="errorsSection">
-    <h2 id="typeErrorsTitle">⚠️ Tipos de errores a la hora de inscribirse</h2>
-    <ul class="listImportantDate">
+    <h2 id="typeErrorsTitle">⚠️ TIPOS DE ERRORES A LA HORA DE INSCRIBIRSE</h2>
+    <ul class="list">
       <li>
-        <article>
-          <h3>SECCIÓN CERRADA</h3>
-          <p>No hay más cupos</p>
+        <article class="artErrorType">
+          <h3 class="errorType">🗿 RESERVA CERRADA</h3>
+          <p class="errorDescription">No hay cupos disponibles.</p>
         </article>
       </li>
       <li>
-        <article>
-          <h3>COLISIÓN DE HORARIO</h3>
-          <p>Una materia choca con otra</p>
+        <article class="artErrorType">
+          <h3 class="errorType">🎫 SECCIÓN CERRADA</h3>
+          <p class="errorDescription">No hay disponibilidad de cupos para esta seccion.</p>
         </article>
       </li>
       <li>
-        <article>
-          <h3>ERROR POR PRELACIÓN DE UNA MATERIA</h3>
-          <p>Se intenta inscribir una materia que está prelada por otra que aún no se ha visto</p>
+        <article class="artErrorType">
+          <h3 class="errorType">🕧 COLISIÓN DE HORARIO</h3>
+          <p class="errorDescription">Existe un choque de materias que coinciden en el horario.</p>
         </article>
       </li>
       <li>
-        <article>
-          <h3>ERROR POR CANTIDAD DE UC APROBADAS</h3>
-          <p>No se tiene las UC aprobadas que son necesarias para cursar la materia</p>
+        <article class="artErrorType">
+          <h3 class="errorType">👀 ERROR POR PRELACIÓN DE UNA MATERIA</h3>
+          <p class="errorDescription">Se intenta inscribir una materia que está prelada por otra que aún no se ha visto.</p>
         </article>
       </li>
       <li>
-        <article>
-          <h3>ERROR POR CO-REQUISITO</h3>
-            <p>Intenta inscribir una materia que tiene otra por co-requisito (es decir tiene que ver una materia junto con otra para poder inscribirla)</p>
+        <article class="artErrorType">
+          <h3 class="errorType">🧠 ERROR POR CANTIDAD DE UC APROBADAS</h3>
+          <p class="errorDescription">No se tiene las UC aprobadas que son necesarias para cursar la materia.</p>
         </article>
       </li>
-
+      <li>
+        <article class="artErrorType">
+          <h3 class="errorType">💡 ERROR POR CO-REQUISITO</h3>
+          <p class="errorDescription">Intenta inscribir una materia que tiene otra por co-requisito (es decir tiene que ver una materia junto con otra para poder inscribirla).</p>
+        </article>
+      </li>
+      <li>
+        <article class="artErrorType">
+          <h3 class="errorType">🔒 RESTRICCIÓN DE PROGRAMA</h3>
+          <p class="errorDescription">Estás solicitando inscribir una materia que no corresponde a tu escuela.</p>
+        </article>
+      </li>
+      <li>
+        <article class="artErrorType">
+          <h3 class="errorType">🧱 RESTRICCIÓN DE CAMPUS</h3>
+          <p class="errorDescription">Estás solicitando inscribir una materia que no corresponde a tu campus.</p>
+        </article>
+      </li>
+      <li>
+        <article class="artErrorType">
+          <h3 class="errorType">⚔️ SECCIÓN DUPLICADA</h3>
+          <p class="errorDescription">Estás solicitando inscribir dos veces una misma materia.</p>
+        </article>
+      </li>
+      <li>
+        <article class="artErrorType">
+          <h3 class="errorType">🤡 RETENCIONES</h3>
+          <p class="errorDescription">Existen retenciones que impiden tu inscripción.</p>
+        </article>
+      </li>
     </ul>
   </section>
+
+  <footer id="footer">
+    <section>
+      <h3>CONTACTOS DE LOS CONSEJEROS</h3>
+      <ul class="list">
+        <li>
+          <article class="artContact">
+            <h4 class="nameFooter">Freddy Fernández</h4>
+            <nav class="linksContacts">
+              <ul class="contactList">
+                <li class="contact"><a href="https://wa.me/584241540989" target="_blank" ><img class="footerLogo" src="./img/whatsapp.png" alt="logo de whatsapp"></a></li>
+                <li class="contact"><a href="https://mail.google.com/mail/u/0/?fs=1&to=fafernandez.24@est.ucab.edu.ve&su=Consejero+de+escuela&body=Nombre+completo:%0AC%C3%A9dula+de+Identidad:%0AProblema:%0A&tf=cm" target="_blank"><img class="footerLogo" src="./img/gmail.png" alt="logo de gmail"></a></li>
+                <li class="contact"><a href="https://github.com/fafernandez24" target="_blank"><img class="footerLogo" src="./img/github.png" alt="logo de github"></a></li>
+              </ul>
+            </nav>
+          </article>
+        </li>
+        <li>
+          <article class="artContact">
+            <h4 class="nameFooter">Mariangel Goncalves</h4>
+            <nav class="linksContacts">
+              <ul class="contactList">
+                <li class="contact"><a href="https://wa.me/584143388902" target="_blank" ><img class="footerLogo" src="./img/whatsapp.png" alt="logo de whatsapp"></a></li>
+                <li class="contact"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mbgoncalves.23@est.ucab.edu.ve&su=Consejero%20de%20escuela&body=Nombre%20completo%3A%0AC%C3%A9dula%20de%20Identidad%3A%0AProblema%3A" target="_blank"><img class="footerLogo" src="./img/gmail.png" alt="logo de gmail"></a></li>
+                <li class="contact"><a href="https://github.com/fafernandez24" target="_blank"><img class="footerLogo" src="./img/github.png" alt="logo de github"></a></li>
+              </ul>
+            </nav>
+          </article>
+        </li>
+        <li>
+          <article class="artContact">
+            <h4 class="nameFooter">Javier Otero</h4>
+            <nav class="linksContacts">
+              <ul class="contactList">
+                <li class="contact"><a href="https://wa.me/584126276517" target="_blank" ><img class="footerLogo" src="./img/whatsapp.png" alt="logo de whatsapp"></a></li>
+                <li class="contact"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=jaotero.24@est.ucab.edu.ve&su=Consejero%20de%20escuela&body=Nombre%20completo%3A%0AC%C3%A9dula%20de%20Identidad%3A%0AProblema%3A" target="_blank"><img class="footerLogo" src="./img/gmail.png" alt="logo de gmail"></a></li>
+                <li class="contact"><a href="https://github.com/Badjavii" target="_blank"><img class="footerLogo" src="./img/github.png" alt="logo de github"></a></li>
+              </ul>
+            </nav>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </footer>
 </body>
 </html>
