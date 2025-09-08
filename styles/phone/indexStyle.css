@@ -1,0 +1,204 @@
+@media (max-width: 999px){
+
+    * {
+    box-sizing: border-box;
+    }
+
+    html{
+        font-size: 10px;
+    }
+
+    body{
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .header{
+        background-color: white;
+        height: 10vh;
+        padding: 0.3rem;
+        object-fit: contain;
+        align-content: center;
+
+        z-index: 1;
+    }
+
+    .iconCE{
+        max-width: 15rem;
+        max-height: 15rem;
+         
+        margin-left: 50%;
+        transform: translate(-50%);
+        image-rendering: crisp-edges;
+    }
+
+    #titleSection{
+        width: 100vw;
+        height: 90vh;
+
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+
+        background-image: url('../../img/backgroundUcab.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+    }
+
+    .titleDiv{
+        width: 100vw;
+    }
+
+    #title{
+        font-size: 5rem;
+        color: white;
+
+        text-align: center;
+        background-color: rgba(0, 89, 255, 0.8);
+
+        padding: 5rem;
+    }
+
+    #importantsDates{
+        overflow: hidden;
+        margin: 0;
+        padding: 4rem;
+        background-color: rgba(0, 0, 255, 0.863);
+        font-size: 3rem;
+        color: white;
+    }
+
+    .list{
+        margin: 0;
+        padding: 0;
+
+        list-style-type: none ;
+    }
+
+    .artImpDate{
+        width: 100;
+        height: 19vh;
+        margin: 0;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        display: flex;
+        font-size: 2rem;
+        align-items: center;
+        padding-left: 4rem;
+    }
+
+    .artImpDate:hover {
+        background-color: rgba(0, 0, 255);
+        color: white;
+
+    }
+
+    .date{
+        height: 15.5vh;
+        min-width: 15vw;
+
+        align-content: center;
+        text-align: center;
+        display: flexbox;
+
+        background-color: rgba(0, 0, 255, 0.863);
+        border-radius: 1rem;
+        border-color: black 6px;
+
+        color: white;
+
+    }
+
+    .dateContent{
+        margin: 2rem;
+    }
+
+    #typeErrorsTitle{
+        width: 100vw;
+        height: 20vh;
+        align-content: center;
+        overflow: hidden;
+        margin: 0;
+        padding: 4rem;
+        font-size: 4rem;
+        color: white;
+        background-color: rgba(149, 37, 224, 0.863);
+    }
+
+    .artErrorType{
+        width: 100vw;
+        margin: 0;
+    }
+
+    .errorType{
+        font-size: 3rem;
+        height: 10vh;
+        align-content: center;
+        background-color: red;
+        margin: 0;
+        padding: 1rem;
+        padding-left: 10rem;
+
+        color: white;  
+    }
+
+    .errorDescription{
+        height: 8vh;
+        align-content: center;
+        font-size: 2rem;
+        margin: 0;
+        padding: 2rem;
+        padding-left: 15rem;
+        max-width: 70vw;
+    }
+
+    #footer{
+        width: 100vw;
+        height: 25vh;
+
+        align-content: center;
+        padding: 5rem;
+
+        background-color: rgba(55, 0, 255);
+        box-shadow: 5px 15px 10px rgb(0,0,0, 0.5) inset;
+
+        font-size: 2rem;
+        color:white;
+    }
+
+    .footerLogo{
+        max-width: 5rem;
+    }
+
+    .artContact{
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
+    .nameFooter{
+        width: 10vw;
+    }
+
+    .listFooter{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        gap: 1.5rem;
+
+        list-style-type: none ;
+    }    
+
+    .contactList{
+        display: flex;
+        gap: 1.5rem;
+        list-style: none;
+        margin: 0;
+    }
+
+
+} 
