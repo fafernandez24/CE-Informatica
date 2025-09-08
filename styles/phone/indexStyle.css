@@ -159,7 +159,7 @@
 
     #footer{
         width: 100vw;
-        height: 25vh;
+        height: 60vh;
 
         align-content: center;
         padding: 5rem;
@@ -167,36 +167,37 @@
         background-color: rgba(55, 0, 255);
         box-shadow: 5px 15px 10px rgb(0,0,0, 0.5) inset;
 
-        font-size: 2rem;
+        font-size: 5rem;
         color:white;
     }
 
     .footerLogo{
-        max-width: 5rem;
+        max-width: 8rem;
+        margin: 0;
     }
 
     .artContact{
-        display: flex;
+        display: flexbox;
         align-content: center;
         align-items: center;
     }
 
     .nameFooter{
-        width: 10vw;
+        width: 70vw;
     }
 
     .listFooter{
         display: flex;
         margin: 0;
         padding: 0;
-        gap: 1.5rem;
+        gap: 5rem;
 
         list-style-type: none ;
     }    
 
     .contactList{
         display: flex;
-        gap: 1.5rem;
+        gap: 2rem;
         list-style: none;
         margin: 0;
     }
